@@ -51,7 +51,7 @@ function setForm(){
     registerForm(user);
 };
 async function registerForm(userData){
-    const api = await fetch(`https://movies-api.routemisr.com/signup`,
+    const api = await fetch(`https://movies-api.routemisr.com`,
     {
         method: 'POST',
         body: JSON.stringify(userData),
