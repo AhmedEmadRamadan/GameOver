@@ -47,7 +47,7 @@ function setForm(){
     logInForm(user);
 };
 async function logInForm(userData){
-    const api = await fetch(`https://movies-api.routemisr.com`,
+    const api = await fetch(`https://movies-api.routemisr.com/`,
     {
         method: 'POST',
         body: JSON.stringify(userData),
